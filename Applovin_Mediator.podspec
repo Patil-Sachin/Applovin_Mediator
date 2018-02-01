@@ -15,6 +15,7 @@ s.platform     = :ios, "8.0"
 s.source       = {:git => 'https://bitbucket.org/vdopia/sdkdistribution.git',:tag => '3.1.8'}
 s.ios.frameworks = 'AdSupport', 'AudioToolbox', 'AVFoundation', 'CFNetwork', 'CoreBluetooth', 'CoreGraphics', 'CoreLocation', 'CoreMedia', 'CoreTelephony', 'EventKit', 'EventKitUI', 'Foundation', 'iAd', 'MapKit', 'MediaPlayer', 'MediaToolbox', 'MobileCoreServices', 'QuartzCore', 'SafariServices', 'Security', 'Social', 'SystemConfiguration', 'UIKit', 'WebKit'
 s.vendored_libraries = "libApplovin_Mediator.a"
+s.vendored_frameworks = "AppLovinSDK.framework"
 s.dependency 'Chocolate_SDK', '~> 1.0.0'
 s.requires_arc = true
 end
